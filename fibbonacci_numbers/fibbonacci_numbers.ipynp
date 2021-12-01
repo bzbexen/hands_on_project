@@ -1,0 +1,5 @@
+num = [1,1]
+for i in range(8):
+    num2 = num[i]+ num[i+1]
+    num.append(num2)
+print(num)
